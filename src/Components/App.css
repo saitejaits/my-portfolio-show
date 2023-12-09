@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bg-color);
+}
+:root {
+  --bg-color: #262626;
+  --font-lite: #bcb4b4;
+  --font-white: #ffffff;
+  --card-bg: #1e1e1e;
+}
+
+.container {
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--bg-color);
+  height: 100vh;
+  width: 100%;
+  color: var(--font-lite);
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
